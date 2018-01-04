@@ -1,6 +1,6 @@
 $(function() {
 
-  $.ajax({
+  jQuery.ajax({
     url: 'https://www.codeschool.com/users/Kaotikus.json',
     dataType: "jsonp",
     success: function(response) {
